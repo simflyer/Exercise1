@@ -1,3 +1,4 @@
+import time
 def sentence_maker(sen):
     interrogatives = ("what", "when", "where", "how", "why")
     capitalized = sen.capitalize()
@@ -22,3 +23,6 @@ while True:
 for i in result:
     print(str(n) + ".", i, "\n")
     n += 1
+
+time.sleep(3600)
+
